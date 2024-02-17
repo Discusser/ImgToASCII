@@ -18,10 +18,10 @@ Help Options:
   -?, --help                       Show help options
 
 Application Options:
-  -f, --file=                      The path to the i
-  -h, --max_height                 Maximum height of
-  -w, --max_width                  Maximum width of 
-  -t, --transparent_background     Whether or not th
-  -s, --image_spacing              The spacing betwe
+  -f, --file=                      The path to the image to be converted to ASCII. To set multiple files, repeat the argument
+  -h, --max_height                 Maximum height of the image in px
+  -w, --max_width                  Maximum width of the image in px
+  -t, --transparent_background     Whether or not the background should be transparent on images with alpha channels
+  -s, --image_spacing              The spacing between images when printing multiple images at the same time
   --no_colors                      Disables colors
 ```
